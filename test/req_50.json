@@ -1,0 +1,7 @@
+{
+  "operation_name": "ChangeGearbox",
+  "arguments": {
+    "level": 50,
+    "meteo": { "town": "Chambon" }
+  }
+}

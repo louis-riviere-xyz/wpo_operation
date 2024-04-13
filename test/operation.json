@@ -1,0 +1,53 @@
+{
+  "_id": "...",
+
+  "name": "ChangeGearbox",
+  "priority": { "value": 1 },
+  "restrictions": [
+    {
+
+      "@date": {
+        "after": "2024-01-18",
+        "before": "2024-03-15"
+      }
+
+    },
+    {
+      "@or": [
+
+        {
+           "@level": {
+             "eq": 40
+
+           }
+        },
+
+        {
+           "@and": [
+             {
+
+               "@level": {
+                 "lt": 30,
+                 "gt": 15
+
+               }
+             },
+
+             {
+               "@meteo": {
+                 "is": "clear",
+
+                 "temp": {
+                   "gt": "15"
+                 }
+
+               }
+             }
+           ]
+
+        }
+      ]
+
+    }
+  ]
+}
