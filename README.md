@@ -10,3 +10,10 @@ See Assignment.pdf
 
 ## Setup :
     $ pip install -r requirements.txt
+
+## Run the test suite :
+    $ ./run_test
+
+## Run the server:
+    $ ./run_server
+
